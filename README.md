@@ -1,5 +1,5 @@
 **Response to Reviewer #1 #2 #3 #4 #5:**  
-**Regarding Threshold Sensitivity in SRPL.** We appreciate the reviewers’ concerns regarding the threshold settings in our SRPL algorithm, particularly oc > 0.85, filter score > 0.6, and IoU > 0.65. In response, we have conducted additional ablation studies and sensitivity analyses to assess the impact of these thresholds on performance, as shown in Table \ref{tab:r1}.
+**Regarding Threshold Sensitivity in SRPL.** We appreciate the reviewers’ concerns regarding the threshold settings in our SRPL algorithm, particularly oc > 0.85, filter score > 0.6, and IoU > 0.65. In response, we have conducted additional ablation studies and sensitivity analyses to assess the impact of these thresholds on performance, as shown in **Table R1**.
 
 **Table R1: Ablation study (pseudo labels evaluation) of threshold settings of the SRPL on the LEVIR-CD dataset.**
 <table>
