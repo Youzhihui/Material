@@ -1,3 +1,13 @@
+**Table: Ablation study (pseudo labels evaluation) of threshold settings of the SRPL on the LEVIR-CD dataset.**
+
+| $t_3$ | $t_4$ | $t_5$ | Pre ↑ | Rec ↑ | F1 ↑ | IoU ↑ | OA ↑ |
+|------:|------:|------:|------:|------:|-----:|------:|-----:|
+| 0.60  | 0.60  | 0.65  | 68.44 | 74.95 | 71.55 | 55.70 | 97.33 |
+| 0.75  | 0.60  | 0.75  | 67.20 | 77.66 | 72.05 | 56.31 | 97.30 |
+| 0.85  | 0.70  | 0.75  |   -   |   -   |   -   |   -   |   -   |
+| 0.85  | 0.60  | 0.65  | 69.18 | 75.33 | 72.13 | 56.40 | 97.39 |
+
+
 **<span style="color:blue">Response to Reviewer #1:</span>**  
 **Point Query Quality Control.** Thank you for the comment. The quality of point queries is controlled by selecting local high-confidence CAM regions (e.g., score > 0.85). Their reliability is reflected in Table 2. Further analysis will be added in the final version if accepted.  
 
